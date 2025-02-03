@@ -204,7 +204,64 @@ h2 {
     font-size: 20px;
     font-weight: 900;
 }
-  
+
+p {
+    color: rgb(102, 102, 102);
+    /* font-family: Raleway; */
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+
+.btn-secondary {
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    left: 38.35px;
+    top: 314.14px;
+    border: none;
+}
+
+.margin1 {
+    margin-top: -300px;
+    margin-left: 50px;
+}
+
+.margin {
+    margin-left: -270px;
+}
+
+.picture {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.story-pic {
+    display: flex;
+    gap: 20px;
+    padding: 80px 90px;
+}
+
+.border {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.picture>img {
+    /* position: relative; */
+}
+
+.size-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.story {
+    background: url(), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding: 60px 0px 60px 0px;
+}
 
 .feild {
     margin-top: 30px;
@@ -213,20 +270,33 @@ h2 {
     margin-left: 160px;
 }
 
+.story-head {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.buton{
+    margin-left: 630px;
+}
+h2{
+    padding: 30px 62px 33px 37px;
+}
 @media screen and (max-width: 576px) {
     .banner-container {
         flex-direction: column-reverse;
     }
-
     .banner-img {
         justify-content: center;
         align-items: center;
     }
-    .hdr{
+    .hdr {
         border-bottom: 2px solid orange;
         width: 510px;
     }
-
     .banner-txt {
         /* margin-left: 300px; */
         text-align: center;
@@ -258,9 +328,11 @@ h2 {
     .card-head {
         font-size: 26px;
     }
-    .feild{
+
+    .feild {
         display: none;
     }
+
     .hdr {
         margin: 0, auto;
     }
