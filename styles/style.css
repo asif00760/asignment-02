@@ -279,24 +279,82 @@ p {
     letter-spacing: 0%;
     text-align: center;
 }
-.buton{
+
+.buton {
     margin-left: 630px;
 }
-h2{
+
+h2 {
     padding: 30px 62px 33px 37px;
+}
+
+.education {
+    /* position: absolute; */
+    width: 70.34px;
+    height: 81.65px;
+    left: 7.58%;
+    right: 7.58%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 10px;
+}
+
+.logos {
+    display: flex;
+    gap: 15px;
+}
+
+.kids {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 172, 253);
+    width: 100%;
+    padding: 123px 228px 174px 140px;
+}
+
+.section1 {
+    justify-content: center;
+}
+
+.home {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.list-item {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#logo-bar {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.para{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
 }
 @media screen and (max-width: 576px) {
     .banner-container {
         flex-direction: column-reverse;
     }
+
     .banner-img {
         justify-content: center;
         align-items: center;
     }
+
     .hdr {
         border-bottom: 2px solid orange;
         width: 510px;
     }
+
     .banner-txt {
         /* margin-left: 300px; */
         text-align: center;
