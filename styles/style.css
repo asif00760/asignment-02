@@ -308,7 +308,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     background-color: rgb(1, 172, 253);
-    width: 100%;
+    max-width: 100%;
     padding: 123px 228px 174px 140px;
 }
 
@@ -326,9 +326,9 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
-#logo-bar {
+/* #logo-bar1 {
     color: rgb(255, 255, 255);
-}
+} */
 
 h3 {
     color: rgb(255, 255, 255);
@@ -339,6 +339,16 @@ h3 {
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 400;
+}
+#logo-bar1{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 576px) {
     .banner-container {
@@ -393,5 +403,18 @@ h3 {
 
     .hdr {
         margin: 0, auto;
+    }
+    .kids {
+        flex-direction: column;
+        padding: 10px;
+        /* width: 576px; */
+       
+    }
+    .story {
+        display: none;
+    }
+    footer{
+        /* margin-left:50px; */
+        width: 520px;
     }
 }
